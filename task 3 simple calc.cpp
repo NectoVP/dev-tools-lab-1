@@ -1,7 +1,21 @@
+/**
+ * @file task 3 simple calc.cpp
+ * @author ptitsyn vlad
+ * @brief simple calculator
+ * @version 0.1
+ * @date 2022-09-24
+ */
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+/**
+ * @brief prints result of math operation 
+ * 
+ * @param first number 
+ * @param second number 
+ * @param matheamatical operator
+ *  
+ */
 void calculator(double& num1, double& num2, char& oper) {
 	switch (oper)
 	{
