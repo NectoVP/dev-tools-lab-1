@@ -1,0 +1,55 @@
+{
+	"range-based for": {
+		"prefix": "fe",
+		"body": [
+			"for(auto const &i : arr) {",
+			"\t$0",
+			"}"
+		],
+		"description": "for each c++ implementation"
+	},
+	"for in for": {
+		"prefix": "ffor",
+		"body": [
+			"for(int i = 0; i < l; ++i) {",
+			"\tfor(int j = 0; j < l; ++j) {",
+			"\t\t$0",
+			"\t}",
+			"}"
+		],
+		"description": "loop in a loop"
+	},
+	"filling array": {
+		"prefix": "inp",
+		"body": [
+			"int n;",
+			"cin >> n;",
+			"vector <int> vec;",
+			"for(int i = 0, a; i < n;++i){",
+			"\tcin >> a;",
+			"\tvec.push_back(a);",
+			"}$0"
+		],
+		"description": "adding n ints to vector"
+	},
+	"new main file": {
+		"prefix": "start",
+		"body": [
+			"#include <iostream>",
+			"#include <vector>",
+			"#include <string>",
+			"using namespace std;",
+			"int main () {",
+			"\t$0",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "basic start if new file"
+	},
+	"rus locale": {
+		"prefix": "rus",
+		"body": [
+			"setlocale(LC_ALL, \"Ru\");"
+		],
+	}
+}
