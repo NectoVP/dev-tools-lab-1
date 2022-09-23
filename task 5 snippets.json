@@ -50,6 +50,6 @@
 		"prefix": "rus",
 		"body": [
 			"setlocale(LC_ALL, \"Ru\");"
-		],
+		]
 	}
 }
